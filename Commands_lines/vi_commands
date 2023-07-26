@@ -1,1 +1,42 @@
 Vi commands
+Navigation
+`h` `j` `k` `l` (move the cursor up, down,left, right) respectively
+W (move forward one word)
+b (move backward one word)
+0 [zero] Move to the beginning of the current line
+$ (move to the end of the current line)
+G (move to the next line of the file)
+G (move to the last line of the file)
+
+Insert Mode commands
+i (Insert Mode) [start inserting text before the cursor]
+a (insert mode) [start inserting text after the cursor]
+I (insert at the beginning of current line)
+A (insert at the end of the current line)
+O (insert a new line below the current line and enter the insert mode)
+O (insert a new line above the current line and enter the insert mode
+
+
+Copy and paste
+yy (copy the current line)
+yw (copy from the cursor to the beginning of the next word)
+y$ (copy from the cursor to the end of the line)
+p (paste after the cursor)
+P (paste before the cursor)
+
+Undo and redo
+u (undo)
+Ctrl + r (redo)
+
+Deleting
+x (delete the character under the cursor)
+dd (delete the entire current line)
+dw (delete from the cursor to the beginning to the beginning of the next word)
+db (delete from the cursor to the beginning of the previous word)
+
+
+SAVE & QUIT
+:w (save dont Quit)
+:wq (Save (write) and Quit)
+:q! (Quit without saving changes)
+:q (quit: or close the editor)
