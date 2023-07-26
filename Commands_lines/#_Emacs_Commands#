@@ -1,0 +1,20 @@
+Command lines for Emacs
+
+Basic movements and navigation
+Ctrl + f (Move the cursor forward one character right)
+Ctrl + b ( Move the cursor backwards one character left)
+Ctrl + n [Move the cursor down (one line)]
+Ctrl + p (Move the cursor up (one line)]
+
+File Operations
+Ctrl + x Ctrl + s (Save the file)
+Ctrl + x, Ctrl + c (Quit or close)
+
+Cut, Undo and paste
+Ctrl + x Ctrl + k  (cut)
+Ctrl + y (paste)
+Ctrl + x  Ctrl + u or Ctrl + _ (undo)
+
+Others
+Ctrl + s (search forward)
+Ctrl + r (reverse search)
