@@ -1,0 +1,14 @@
+GIT COMMAND LINES
+git status (command line to see what changes have been staged, which havent and which files aren't being tracked)
+git add “file name” (command line to add a specific file to GITHUB repo)
+git commit -m <message> (command line to commit the staged file with a message)
+git push
+git rm –cached “file name” (removes a file from being committed)
+
+Branch Commands
+git branch “New branch name” (command line used to create a new branch)
+git branch ( To see a list of branches in the current repository)
+git branch -m old-name new-name (to rename a branch) 
+git branch -d “unwanted branch” (This will delete a branch that has been merged in to a current directory)
+git branch -D “unwanted-branch” (This will force delete the unwanted branch)
+git branch -r (to see a list of remote branches)
